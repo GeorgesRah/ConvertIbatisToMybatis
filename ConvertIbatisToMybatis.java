@@ -298,7 +298,7 @@ public class ConvertIbatisToMybatis
 
     public static void main(String[] args)
     {
-        final String folder_path = "D://Projects//Valoores_Suite//project//com//dao//";
+        final String folder_path = "D://Projects//Suite//project//com//dao//";
 
         ConvertIbatisToMybatis c = new ConvertIbatisToMybatis();
         System.out.println("Start ConvertIbatisToMybatis... ");
