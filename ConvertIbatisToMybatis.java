@@ -298,13 +298,10 @@ public class ConvertIbatisToMybatis
 
     public static void main(String[] args)
     {
-        final String folder_path = "D://SVN_PROJECTS//VAL_SUITE_V11//project//javasource//com//softsolutions//alm//dao//balancesheetplanner//accuracy";
-        final String assi_path = "D://SVN_PROJECTS//VAL_SUITE_V11//project//javasource//com//softsolutions//cfg//dao//generalconfig//assignment//impl//ibatis//maps";
+        final String folder_path = "D://Projects//Valoores_Suite//project//com//dao//";
 
         ConvertIbatisToMybatis c = new ConvertIbatisToMybatis();
-        // c.loopFilesinFolder(folder_path);
-        // c.loopFilesinFolder(assi_path);
-        c.replaceEqualConditionsByIfStatement("<isEqual property=\"status\" compareValue=\"yy\" prepend=\"and\">");
+        System.out.println("Start ConvertIbatisToMybatis... ");
     }
 
 }
