@@ -676,7 +676,7 @@ public class ConvertIbatisToMybatis
     }
     public static void main(String[] args)
     {
-        final String folder_path = "D://SVN_Projects//Valoores_Suite//project//Valoores_Suite//javasource//com//softsolutions//col//dao//";
+        final String folder_path = "D://Projects//Valoores_Suite//project//Valoores_Suite//javasource//com//";
 
         ConvertIbatisToMybatis c = new ConvertIbatisToMybatis();
         System.out.println("Start ConvertIbatisToMybatis... ");
